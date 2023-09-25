@@ -8,7 +8,6 @@ let prevBtn = document.querySelector(".fa-step-backward");
 let nextBtn = document.querySelector(".fa-step-forward");
 let currSongNameDisplay = document.querySelector(".curr-songname");
 
-
 let songs = [
     { songName: "Warriyo - Mortals [NCS Release]", filePath: "songs/1.mp3", coverPath: "covers/1.jpg" },
     { songName: "Cielo - Huma-Huma", filePath: "songs/2.mp3", coverPath: "covers/2.jpg" },
@@ -124,4 +123,6 @@ playButtons.forEach((button, idx) => {
         button.classList.add('fa-pause-circle');
     });
 });
+
+
 
